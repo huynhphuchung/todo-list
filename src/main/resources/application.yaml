@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /todo-list
+
+spring:
+  application:
+    name: todo-list
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/todolist-service?authSource=admin
+      auto-index-creation: true
